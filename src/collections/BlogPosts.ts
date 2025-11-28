@@ -2,7 +2,7 @@ import { CollectionConfig } from 'payload'
 
 export const BlogPosts: CollectionConfig = {
   slug: 'blog-posts',
-  label: 'Blog Posts',
+  labels: { singular: 'Blog Post', plural: 'Blog Posts' },
   admin: {
     useAsTitle: 'title',
   },
